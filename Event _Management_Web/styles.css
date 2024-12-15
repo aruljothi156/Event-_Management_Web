@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    /* Black background */
+    color: #f4f4f4;
+    /* Light text color for contrast */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A1A1A;
+    /* Darker header background */
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    /* Increased font size for logo */
+    color: #FF6F61;
+    /* Accent color for logo */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    /* Light color for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #FF6F61;
+    /* Change color on hover */
+}
+
+.hero {
+    /* Background image */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    opacity: 0.9;
+    /* Slightly transparent for a stylish look */
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.event-section {
+    padding: 50px 20px;
+    background-color: #1A1A1A;
+    /* Matching dark background */
+}
+
+.event-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event-item {
+    background: #2f475e;
+    /* Card background color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+    width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Transition for hover effects */
+    color: #f4f4f4;
+    /* Light text color */
+}
+
+.event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+.date {
+    color: #FF6F61;
+    /* Accent color for date */
+    font-weight: bold;
+}
+
+.register-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 24px;
+    background-color: #ffb3a7;
+    /* Lighter button color for better visibility */
+    color: #000000;
+    /* Dark text color for good contrast */
+    text-decoration: none;
+    border-radius: 8px;
+    /* Softer corners */
+    font-weight: bold;
+    font-size: 16px;
+    /* Larger font for clarity */
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #ff867c;
+    /* Lighter hover effect */
+}
+
+.about-section,
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #3A3A3A;
+    /* Matching dark background */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2C3E50;
+    /* Dark footer */
+    color: #f4f4f4;
+    /* Light text color */
+    margin-top: 20px;
+}
